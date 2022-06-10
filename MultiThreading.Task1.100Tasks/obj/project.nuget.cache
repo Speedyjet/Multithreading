@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4MSzoQGfH8mySqIqrSIFFr5fRcts/beD3KmP+2jXgGpYN9Roq/cEYzLhxy3kB9HwwbFSFUOdIzedjE6c2+KQdA==",
+  "dgSpecHash": "jGRimgxG9xqo009Z1cKE4KL3LJmM5OmGUIEFEZ7x0ThFJ89RF2UqahhyNMHXY0YeE5SRxgVNdse4KpE0sF3CZw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Oleh_Brusentsov\\Downloads\\01.multithreading.v.1.2\\01.multithreading\\MultiThreading.Task1.100Tasks\\MultiThreading.Task1.100Tasks.csproj",
+  "projectFilePath": "C:\\Users\\Oleh_Brusentsov\\source\\repos\\Multithreading\\MultiThreading.Task1.100Tasks\\MultiThreading.Task1.100Tasks.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.dotnetapphost\\2.1.0\\microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",

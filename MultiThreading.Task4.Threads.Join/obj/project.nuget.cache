@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pZGJOM3l0Vi8rKczMT6ZNAXWBVdK8h8AHbXRZ9VSYY600Ze5wU268FpSlUkCxDECCcijwwK7TCAl+KLajp0hjw==",
+  "dgSpecHash": "P8dpIyDLoeCzD07oOUe3tUVGd187crxoh7J2tOqXgfh9UU3iiCIbFL06EEtqgr8+syknTYOeaNYo0phxjNn5BA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Oleh_Brusentsov\\Downloads\\01.multithreading.v.1.2\\01.multithreading\\MultiThreading.Task4.Threads.Join\\MultiThreading.Task4.Threads.Join.csproj",
+  "projectFilePath": "C:\\Users\\Oleh_Brusentsov\\source\\repos\\Multithreading\\MultiThreading.Task4.Threads.Join\\MultiThreading.Task4.Threads.Join.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.dotnetapphost\\2.1.0\\microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",

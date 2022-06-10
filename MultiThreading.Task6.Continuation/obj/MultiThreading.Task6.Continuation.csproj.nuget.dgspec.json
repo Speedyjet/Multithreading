@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Oleh_Brusentsov\\Downloads\\01.multithreading.v.1.2\\01.multithreading\\MultiThreading.Task6.Continuation\\MultiThreading.Task6.Continuation.csproj": {}
+    "C:\\Users\\Oleh_Brusentsov\\source\\repos\\Multithreading\\MultiThreading.Task6.Continuation\\MultiThreading.Task6.Continuation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Oleh_Brusentsov\\Downloads\\01.multithreading.v.1.2\\01.multithreading\\MultiThreading.Task6.Continuation\\MultiThreading.Task6.Continuation.csproj": {
+    "C:\\Users\\Oleh_Brusentsov\\source\\repos\\Multithreading\\MultiThreading.Task6.Continuation\\MultiThreading.Task6.Continuation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Oleh_Brusentsov\\Downloads\\01.multithreading.v.1.2\\01.multithreading\\MultiThreading.Task6.Continuation\\MultiThreading.Task6.Continuation.csproj",
+        "projectUniqueName": "C:\\Users\\Oleh_Brusentsov\\source\\repos\\Multithreading\\MultiThreading.Task6.Continuation\\MultiThreading.Task6.Continuation.csproj",
         "projectName": "MultiThreading.Task6.Continuation",
-        "projectPath": "C:\\Users\\Oleh_Brusentsov\\Downloads\\01.multithreading.v.1.2\\01.multithreading\\MultiThreading.Task6.Continuation\\MultiThreading.Task6.Continuation.csproj",
+        "projectPath": "C:\\Users\\Oleh_Brusentsov\\source\\repos\\Multithreading\\MultiThreading.Task6.Continuation\\MultiThreading.Task6.Continuation.csproj",
         "packagesPath": "C:\\Users\\Oleh_Brusentsov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Oleh_Brusentsov\\Downloads\\01.multithreading.v.1.2\\01.multithreading\\MultiThreading.Task6.Continuation\\obj\\",
+        "outputPath": "C:\\Users\\Oleh_Brusentsov\\source\\repos\\Multithreading\\MultiThreading.Task6.Continuation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

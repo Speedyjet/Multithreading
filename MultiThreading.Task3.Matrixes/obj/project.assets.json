@@ -695,11 +695,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Oleh_Brusentsov\\Downloads\\01.multithreading.v.1.2\\01.multithreading\\MultiThreading.Task3.Matrixes\\MultiThreading.Task3.MatrixMultiplier.csproj",
+      "projectUniqueName": "C:\\Users\\Oleh_Brusentsov\\source\\repos\\Multithreading\\MultiThreading.Task3.Matrixes\\MultiThreading.Task3.MatrixMultiplier.csproj",
       "projectName": "MultiThreading.Task3.MatrixMultiplier",
-      "projectPath": "C:\\Users\\Oleh_Brusentsov\\Downloads\\01.multithreading.v.1.2\\01.multithreading\\MultiThreading.Task3.Matrixes\\MultiThreading.Task3.MatrixMultiplier.csproj",
+      "projectPath": "C:\\Users\\Oleh_Brusentsov\\source\\repos\\Multithreading\\MultiThreading.Task3.Matrixes\\MultiThreading.Task3.MatrixMultiplier.csproj",
       "packagesPath": "C:\\Users\\Oleh_Brusentsov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Oleh_Brusentsov\\Downloads\\01.multithreading.v.1.2\\01.multithreading\\MultiThreading.Task3.Matrixes\\obj\\",
+      "outputPath": "C:\\Users\\Oleh_Brusentsov\\source\\repos\\Multithreading\\MultiThreading.Task3.Matrixes\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

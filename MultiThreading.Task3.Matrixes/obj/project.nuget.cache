@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "l+iVnoqk1Y8ZJEVqEn27l80rce2mAM4aym8WZ30CA5kTQeRW5CTHwf42kgXG62IM8cNobPCSPENrsG+zkfs7PQ==",
+  "dgSpecHash": "8naIqwfmluOG+RGkDTtfCjw2zk+9Mrhj1r1pgtz2szSKczoT4Eqeoq2gHqW0GljOGxBEkvK5bv6WunFlezSXyg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Oleh_Brusentsov\\Downloads\\01.multithreading.v.1.2\\01.multithreading\\MultiThreading.Task3.Matrixes\\MultiThreading.Task3.MatrixMultiplier.csproj",
+  "projectFilePath": "C:\\Users\\Oleh_Brusentsov\\source\\repos\\Multithreading\\MultiThreading.Task3.Matrixes\\MultiThreading.Task3.MatrixMultiplier.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.dotnetapphost\\2.1.0\\microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
