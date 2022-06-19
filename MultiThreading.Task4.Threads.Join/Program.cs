@@ -30,7 +30,7 @@ namespace MultiThreading.Task4.Threads.Join
 
             Console.WriteLine();
 
-            //TypeA(_counter);
+            TypeA(_counter);
             TypeB(_counter);
 
             Console.ReadLine();
