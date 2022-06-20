@@ -53,13 +53,16 @@ namespace MultiThreading.Task6.Continuation
             //don't really know how to make parent task thread should be reused for continuation.");
             var taskC = Task.Run(() =>
             {
+                Console.WriteLine("parent thread id {0}", Thread.CurrentThread.ManagedThreadId);
                 Console.WriteLine("this is a third task, and it will fail");
+                throw new Exception("parent exception");
             }, token);
             var fallenTask = taskC.ContinueWith((result) =>
             {
-                var parentThread = Thread.CurrentThread;
+                Console.WriteLine(result.AsyncState);
+                Console.WriteLine("child thread id {0}", Thread.CurrentThread.ManagedThreadId);
                 Console.WriteLine("the parent task fails");
-            }, TaskContinuationOptions.NotOnFaulted);
+            }, TaskContinuationOptions.AttachedToParent);
 
             //Continuation task should be executed outside of the thread pool when the parent task would be cancelled.");
             var taskD = new Task(() =>
