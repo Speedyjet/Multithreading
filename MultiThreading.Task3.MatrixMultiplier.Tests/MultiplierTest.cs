@@ -19,26 +19,33 @@ namespace MultiThreading.Task3.MatrixMultiplier.Tests
         [TestMethod]
         public void ParallelEfficiencyTest()
         {
+            var index = 1;
+
             var normalTimer = new Stopwatch();
             var parallelTimer = new Stopwatch();
-            int i = 1;
-            do //(parallelTimer.ElapsedMilliseconds > normalTimer.ElapsedMilliseconds)
+
+            do
             {
-                i++;
-                var testMatrix1 = new Matrix(i, i, true);
-                var testMatrix2 = new Matrix(i, i, true);
+                var testMatrix1 = new Matrix(index, index, true);
+                var testMatrix2 = new Matrix(index, index, true);
                 var originalMultiplier = new MatricesMultiplier();
                 var parallelMultiplier = new MatricesMultiplierParallel();
+
                 normalTimer.Restart();
                 originalMultiplier.Multiply(testMatrix1, testMatrix2);
                 normalTimer.Stop();
-                Console.WriteLine("Normal mode took {0}", normalTimer.ElapsedMilliseconds);
                 parallelTimer.Restart();
                 parallelMultiplier.Multiply(testMatrix1, testMatrix2);
                 parallelTimer.Stop();
-                Console.WriteLine("Parallel mode took {0}", parallelTimer.ElapsedMilliseconds);
-            } while (parallelTimer.ElapsedTicks < normalTimer.ElapsedTicks);
-            Console.WriteLine("last iteration {0}", i);
+                if (parallelTimer.ElapsedTicks < normalTimer.ElapsedTicks)
+                {
+                    Console.WriteLine(index);
+                    break;
+                }
+                index += 1;
+            }
+            while (parallelTimer.ElapsedTicks < normalTimer.ElapsedTicks);
+            Console.WriteLine("i equals {0}", index);
         }
 
         #region private methods
