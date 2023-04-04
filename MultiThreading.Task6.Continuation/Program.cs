@@ -62,7 +62,7 @@ namespace MultiThreading.Task6.Continuation
                 Console.WriteLine(result.AsyncState);
                 Console.WriteLine("child thread id {0}", Thread.CurrentThread.ManagedThreadId);
                 Console.WriteLine("the parent task fails");
-            }, TaskContinuationOptions.AttachedToParent);
+            }, TaskContinuationOptions.AttachedToParent | TaskContinuationOptions.ExecuteSynchronously);
 
             //Continuation task should be executed outside of the thread pool when the parent task would be cancelled.");
             var taskD = new Task(() =>
